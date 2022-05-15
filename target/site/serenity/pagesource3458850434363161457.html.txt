@@ -1,0 +1,664 @@
+<html lang="en-US" style="" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths jetpack-lazy-images-js-enabled"><!--<![endif]--><head>
+    <script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202205100101/reactive_library_fy2019.js"></script><script src="https://partner.googleadservices.com/gampad/cookie.js?domain=www.globalsqa.com&amp;callback=_gfp_s_&amp;client=ca-pub-2878895907861435"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202205100101/show_ads_impl_fy2019.js" id="google_shimpl"></script><script data-ad-client="ca-pub-2878895907861435" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="UTF-8">
+	
+		
+
+	
+	<meta property="fb:pages" content="236742729828534">
+
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" type="image/x-icon" href="https://www.globalsqa.com/wp-content/themes/Savia/images/favicon.png">		
+		
+	
+	<!-- This site is optimized with the Yoast SEO plugin v14.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>AngularJS Protector Practice Site Online - Global SQA</title>
+	<meta name="description" content="AngularJS Protector Practice Site | Automation Practice website | Software Testing Practice | Dummy Site to Practice | Performance Practice Website">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://www.globalsqa.com/angularjs-protractor-practice-site/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="AngularJS Protector Practice Site Online - Global SQA">
+	<meta property="og:description" content="AngularJS Protector Practice Site | Automation Practice website | Software Testing Practice | Dummy Site to Practice | Performance Practice Website">
+	<meta property="og:url" content="https://www.globalsqa.com/angularjs-protractor-practice-site/">
+	<meta property="og:site_name" content="GlobalSQA">
+	<meta property="article:publisher" content="http://facebook.com/globalsqa">
+	<meta property="article:modified_time" content="2017-06-18T10:11:52+00:00">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@Global_SQA">
+	<meta name="twitter:site" content="@Global_SQA">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.globalsqa.com/#organization","name":"GlobalSQA","url":"https://www.globalsqa.com/","sameAs":["http://facebook.com/globalsqa","https://www.instagram.com/globalsqa/","https://www.linkedin.com/company/globalsqa","https://www.youtube.com/channel/UC6mey8Dj38IN6udLS73bO7w","https://in.pinterest.com/globalsqa/","https://twitter.com/Global_SQA"],"logo":{"@type":"ImageObject","@id":"https://www.globalsqa.com/#logo","inLanguage":"en-US","url":"https://i0.wp.com/www.globalsqa.com/wp-content/uploads/2016/05/FB_Logo-3.png?fit=200%2C125&ssl=1","width":200,"height":125,"caption":"GlobalSQA"},"image":{"@id":"https://www.globalsqa.com/#logo"}},{"@type":"WebSite","@id":"https://www.globalsqa.com/#website","url":"https://www.globalsqa.com/","name":"GlobalSQA","description":"","publisher":{"@id":"https://www.globalsqa.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.globalsqa.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.globalsqa.com/angularjs-protractor-practice-site/#webpage","url":"https://www.globalsqa.com/angularjs-protractor-practice-site/","name":"AngularJS Protector Practice Site Online - Global SQA","isPartOf":{"@id":"https://www.globalsqa.com/#website"},"datePublished":"2016-09-03T20:25:22+00:00","dateModified":"2017-06-18T10:11:52+00:00","description":"AngularJS Protector Practice Site | Automation Practice website | Software Testing Practice | Dummy Site to Practice | Performance Practice Website","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.globalsqa.com/angularjs-protractor-practice-site/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//secure.gravatar.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="GlobalSQA » Feed" href="https://www.globalsqa.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="GlobalSQA » Comments Feed" href="https://www.globalsqa.com/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.globalsqa.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.10"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://www.globalsqa.com/wp-includes/js/wp-emoji-release.min.js?ver=5.4.10" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="animate-plugin-css" href="https://www.globalsqa.com/wp-content/plugins/animate/stylesheets/app.css?ver=0.5" type="text/css" media="all">
+<link rel="stylesheet" id="jeweltheme-jquery-ui-style-css" href="https://www.globalsqa.com/wp-content/plugins/wp-awesome-faq/jquery-ui.css?ver=5.4.10" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://c0.wp.com/c/5.4.10/wp-includes/css/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-css" href="https://www.globalsqa.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.4.10/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="edsanimate-animo-css-css" href="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/css/animate-animo.css?ver=5.4.10" type="text/css" media="all">
+<link rel="stylesheet" id="custom-style-css" href="https://www.globalsqa.com/wp-content/plugins/animated-icon-banner-for-visual-composer/./vc_doo_banner.css?ver=20120208" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://www.globalsqa.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.9" type="text/css" media="all">
+<link rel="stylesheet" id="wpProQuiz_front_style-css" href="https://www.globalsqa.com/wp-content/plugins/wp-pro-quiz/css/wpProQuiz_front.min.css?ver=0.37" type="text/css" media="all">
+<link rel="stylesheet" id="boc-style-css" href="https://www.globalsqa.com/wp-content/themes/Savia/style.css?ver=5.4.10" type="text/css" media="all">
+<style id="boc-style-inline-css" type="text/css">
+
+		
+			.light_menu #menu > ul > li > div { border-top: 2px solid #077cf9; }
+			.light_menu #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.light_menu #menu > ul > li:hover > a.no_border { border-bottom: none; }
+
+			.dark_menu #menu > ul > li > div { border-top: 2px solid #077cf9; }
+			.dark_menu #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.dark_menu #menu > ul > li:hover > a.no_border { border-bottom: none; }
+				
+			.custom_menu #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+			.custom_menu #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.custom_menu #menu > ul > li:hover > a.no_border { border-bottom: none; }
+				
+			.custom_menu2 #menu > ul > li > div { border-top: 2px solid #077cf9;}
+			.custom_menu2 #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.custom_menu2 #menu > ul > li:hover > a.no_border { border-bottom: 2px solid transparent; }
+				
+			.custom_menu3 #menu > ul > li > div { border-top: 2px solid #077cf9;}
+			.custom_menu3 #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.custom_menu3 #menu > ul > li:hover > a.no_border { border-bottom: none; }
+				
+			.custom_menu4 #menu > ul > li > div { border-top: 2px solid #077cf9;}
+			.custom_menu4 #menu > ul > li:hover > a { border-bottom: 2px solid #077cf9; }
+			.custom_menu4 #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+			.custom_menu4 #menu > ul > li:hover > a.no_border { border-bottom: none; }
+
+			.custom_menu5 #menu > ul > li:hover > a { background-color: #077cf9;}
+			.custom_menu5 #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+				
+				
+			.custom_menu6 #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+			.custom_menu6 #menu > ul > li:hover > a { border-top: 2px solid #077cf9;}
+				
+			.custom_menu7 #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+			.custom_menu7 #menu > ul > li:hover > a { border-top: 2px solid #077cf9;}
+				
+			.custom_menu8 #menu > ul > li ul > li > a:hover { background-color: #077cf9;}
+			.custom_menu8 #menu > ul > li:hover > a { border-top: 2px solid #077cf9;}
+		
+        
+		#footer {
+			position: relative;
+		}
+
+</style>
+<link rel="stylesheet" id="boc-responsive-style-css" href="https://www.globalsqa.com/wp-content/themes/Savia/stylesheets/responsive.css?ver=5.4.10" type="text/css" media="all">
+<link crossorigin="anonymous" rel="stylesheet" id="boc-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C400%2C300%2C600%2C700%7CDroid+Serif%3A400%2C700%2C400italic%2C700italic&amp;ver=5.4.10" type="text/css" media="all">
+<link rel="stylesheet" id="zoom-style-css" href="https://www.globalsqa.com/wp-content/themes/Savia/stylesheets/jquery.jqzoom.css?ver=5.4.10" type="text/css" media="all">
+<link rel="stylesheet" id="dry_awp_theme_style-css" href="https://www.globalsqa.com/wp-content/plugins/advanced-wp-columns/assets/css/awp-columns.css?ver=5.4.10" type="text/css" media="all">
+<style id="dry_awp_theme_style-inline-css" type="text/css">
+@media screen and (max-width: 1024px) {	.csColumn {		clear: both !important;		float: none !important;		text-align: center !important;		margin-left:  10% !important;		margin-right: 10% !important;		width: 80% !important;	}	.csColumnGap {		display: none !important;	}}
+</style>
+<link rel="stylesheet" id="bfa-font-awesome-css" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/8.5.1/css/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/jquery/jquery.js"></script><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.globalsqa.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/libs.js?ver=5.4.10"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var JSParams = {"sticky_header":"1"};
+var JSFooterParams = {"fixed_footer":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/common.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/jquery.smoothscroll.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/jquery.stellar.min.js?ver=5.4.10"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/hoverIntent.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1652573971","secure":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/utils.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","dismiss":"Dismiss this notice.","collapseMenu":"Collapse Main menu","expandMenu":"Expand Main menu"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-admin/js/common.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var template_dir_uri = "https:\/\/www.globalsqa.com\/wp-content\/themes\/Savia";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/anims.js?ver=5.4.10"></script><link rel="stylesheet" href="https://www.globalsqa.com/wp-content/themes/Savia/stylesheets/animations.css">
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/themes/Savia/js/jquery.jqzoom-core.js?ver=5.4.10"></script>
+<link rel="https://api.w.org/" href="https://www.globalsqa.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.globalsqa.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.globalsqa.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.4.10">
+<link rel="shortlink" href="https://wp.me/P7B4Kk-IN">
+<link rel="alternate" type="application/json+oembed" href="https://www.globalsqa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.globalsqa.com%2Fangularjs-protractor-practice-site%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.globalsqa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.globalsqa.com%2Fangularjs-protractor-practice-site%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.13.0">		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		
+<link rel="dns-prefetch" href="//v0.wordpress.com">
+<link rel="dns-prefetch" href="//i0.wp.com">
+<link rel="dns-prefetch" href="//i1.wp.com">
+<link rel="dns-prefetch" href="//i2.wp.com">
+<link rel="dns-prefetch" href="//jetpack.wordpress.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//public-api.wordpress.com">
+<link rel="dns-prefetch" href="//0.gravatar.com">
+<link rel="dns-prefetch" href="//1.gravatar.com">
+<link rel="dns-prefetch" href="//2.gravatar.com">
+<link rel="dns-prefetch" href="//widgets.wp.com">
+<link rel="dns-prefetch" href="//c0.wp.com">
+<style type="text/css">img#wpstats{display:none}</style><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "ca-pub-2878895907861435",
+enable_page_level_ads: true,
+tag_partner: "site_kit"
+});
+</script>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://www.globalsqa.com/wp-content/themes/Savia/images/main_bgr.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+				<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="amphtml" href="https://www.globalsqa.com/angularjs-protractor-practice-site/?amp"><style type="text/css" id="animate-plugin-header-css"></style><script type="text/javascript">
+
+
+
+</script>
+	
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-67337609-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-67337609-1');
+</script>
+<!--
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67337609-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="https://adservice.google.com.co/adsid/integrator.js?domain=www.globalsqa.com" as="script"><script type="text/javascript" src="https://adservice.google.com.co/adsid/integrator.js?domain=www.globalsqa.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.globalsqa.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.globalsqa.com"></script><link rel="preload" href="https://adservice.google.com.co/adsid/integrator.js?domain=www.globalsqa.com" as="script"><script type="text/javascript" src="https://adservice.google.com.co/adsid/integrator.js?domain=www.globalsqa.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.globalsqa.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.globalsqa.com"></script></head><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220511/r20190131/zrt_lookup.html" style="display: none;"></iframe>
+
+<body data-rsssl="1" class="page-template-default page page-id-2777 custom-background" style="background-image: none; padding: 0px 0px 154px;" aria-hidden="false">
+
+  	
+  	
+    
+  <div id="wrapper" class="full_wrapper page_title_bgr responsive">
+  
+	<header id="header" class="has_subheader">
+		
+		
+				<!-- Container -->
+		<div class="full_header">
+			<div class="container">	
+				<div id="subheader" class="row">
+					<div class="sixteen columns">
+						<div class="subheader_inside">
+							
+							
+							<div class="header_search">
+								<form class="search" action="https://www.globalsqa.com/" method="get">
+									<button class="button_search"></button>
+									<input name="s" id="s" type="text" placeholder="Search..." value="">
+								</form>
+							</div>
+													
+						<a target="_blank" href="https://in.pinterest.com/globalsqa/" class="header_soc_pinterest" title="Pinterest">pinterest</a><a target="_blank" href="https://twitter.com/Global_SQA" class="header_soc_twitter" title="Twitter">twitter</a><a target="_blank" href="https://www.linkedin.com/company/globalsqa" class="header_soc_linkedin" title="LinkedIn">linkedin</a><a target="_blank" href="https://plus.google.com/103761557396023531439/posts" class="header_soc_google" title="Google+">google</a><a target="_blank" href="https://facebook.com/globalsqa" class="header_soc_facebook" title="Facebook">facebook</a>						
+							
+							<div class="header_contacts">
+																	<div class="header_mail">contact@globalsqa.com</div>
+									
+																	<div class="header_phone">+91-9910979218</div>
+															</div>
+						</div>					
+						
+					</div>
+				</div>	
+			</div>	
+		</div>
+				
+		
+		
+	<div class="header_container_holder">	
+		<!-- Container -->
+		<div class="container">
+		
+				
+					
+			<div class=" sixteen columns">
+
+			
+										
+				<div id="logo">
+										<div class="logo_img">
+					<a href="https://www.globalsqa.com/" title="GlobalSQA" rel="home">
+						<img alt="GlobalSQA" data-src="https://globalsqa.com/wp-content/uploads/2015/10/logo1.png" class=" lazyloaded" src="https://globalsqa.com/wp-content/uploads/2015/10/logo1.png"><noscript><img src="https://globalsqa.com/wp-content/uploads/2015/10/logo1.png"  alt="GlobalSQA"/></noscript>
+					</a>
+					</div>
+									</div>
+
+				<div id="mobile_menu_toggler"></div>
+				 
+								 
+				 
+				<!-- Main Navigation -->			
+						   
+
+				<div class="dark_menu">	
+				<div id="menu" class="menu-custom-main-menu-container"><ul><li id="menu-item-1513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1513"><a href="https://www.globalsqa.com/">Home</a></li>
+<li id="menu-item-6898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6898"><a href="https://www.globalsqa.com/cheatsheets/">CheatSheets</a></li>
+<li id="menu-item-7128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7128"><a href="https://www.globalsqa.com/free-ebooks/" class="no_border">Free Ebooks<span></span></a>
+<div><ul class="sub-menu">
+	<li id="menu-item-7132" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7132"><a href="https://www.globalsqa.com/free-machine-learning-ebooks/"><span>Free Machine Learning Ebooks</span></a></li>
+	<li id="menu-item-7130" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7130"><a href="https://www.globalsqa.com/free-deep-learning-ebooks/"><span>Free Deep Learning eBooks</span></a></li>
+	<li id="menu-item-7129" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7129"><a href="https://www.globalsqa.com/free-elasticsearch-ebooks/"><span>Free Elasticsearch eBooks</span></a></li>
+	<li id="menu-item-7131" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7131"><a href="https://www.globalsqa.com/free-tensorflow-ebooks/" class="last_submenu_item"><span>Free Tensorflow eBooks</span></a></li>
+</ul></div>
+</li>
+<li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2822"><a href="https://www.globalsqa.com/testers-hub/" class="no_border">Tester’s Hub<span></span></a>
+<div><ul class="sub-menu">
+	<li id="menu-item-2823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2823"><a href="https://www.globalsqa.com/demo-site/" class="no_border sub_menu_parent"><span>Demo Testing Site<span></span></span></a>
+	<div class="subsub_menu"><ul class="sub-menu">
+		<li id="menu-item-2831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2831"><a href="https://www.globalsqa.com/demo-site/tooltip/"><span>Tooltip</span></a></li>
+		<li id="menu-item-2834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2834"><a href="https://www.globalsqa.com/demo-site/alertbox/"><span>AlertBox</span></a></li>
+		<li id="menu-item-2827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2827"><a href="https://www.globalsqa.com/demo-site/datepicker/"><span>DatePicker</span></a></li>
+		<li id="menu-item-2828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2828"><a href="https://www.globalsqa.com/demo-site/dialog-boxes/"><span>Dialog Boxes</span></a></li>
+		<li id="menu-item-2832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832"><a href="https://www.globalsqa.com/demo-site/progress-bar/"><span>Progress Bar</span></a></li>
+		<li id="menu-item-2829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2829"><a href="https://www.globalsqa.com/demo-site/draganddrop/"><span>Drag And Drop</span></a></li>
+		<li id="menu-item-2830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830"><a href="https://www.globalsqa.com/demo-site/draggableboxes/"><span>Draggable Boxes</span></a></li>
+		<li id="menu-item-2825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825"><a href="https://www.globalsqa.com/demo-site/select-dropdown-menu/"><span>DropDown Menu</span></a></li>
+		<li id="menu-item-2826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="https://www.globalsqa.com/demo-site/toolbar/"><span>Toolbar</span></a></li>
+		<li id="menu-item-2833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2833"><a href="https://www.globalsqa.com/demo-site/auto-complete/"><span>Auto Complete</span></a></li>
+		<li id="menu-item-2835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://www.globalsqa.com/demo-site/accordion-and-tabs/"><span>Accordion And Tabs</span></a></li>
+		<li id="menu-item-2836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2836"><a href="https://www.globalsqa.com/demo-site/select-elements/"><span>Select Elements</span></a></li>
+		<li id="menu-item-2999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2999"><a href="https://www.globalsqa.com/demo-site/frames-and-windows/" class="last_submenu_item"><span>Frames And Windows</span></a></li>
+	</ul></div>
+</li>
+	<li id="menu-item-2824" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2777 current_page_item menu-item-has-children menu-item-2824"><a href="https://www.globalsqa.com/angularjs-protractor-practice-site/" aria-current="page" class="no_border sub_menu_parent"><span>AngularJS Protractor Practice Site<span></span></span></a>
+	<div class="subsub_menu"><ul class="sub-menu">
+		<li id="menu-item-2842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2842"><a href="https://www.globalsqa.com/angularJs-protractor/SearchFilter/"><span>Filters</span></a></li>
+		<li id="menu-item-2841" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2841"><a href="https://www.globalsqa.com/angularJs-protractor/Scrollable"><span>Scrollable</span></a></li>
+		<li id="menu-item-2838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2838"><a href="https://www.globalsqa.com/angularJs-protractor/Multiform/"><span>Multiform</span></a></li>
+		<li id="menu-item-2844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2844"><a href="https://www.globalsqa.com/angularJs-protractor/WebTable"><span>WebTable</span></a></li>
+		<li id="menu-item-2840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2840"><a href="https://globalsqa.com/angularJs-protractor/registration-login-example"><span>Registration Form</span></a></li>
+		<li id="menu-item-2843" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2843"><a href="https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/"><span>Simple Calculator</span></a></li>
+		<li id="menu-item-2845" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2845"><a href="https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/"><span>Consumption Calculator</span></a></li>
+		<li id="menu-item-2839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2839"><a href="https://www.globalsqa.com/angularJs-protractor/BankingProject" class="last_submenu_item"><span>Banking Project</span></a></li>
+	</ul></div>
+</li>
+	<li id="menu-item-2846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://www.globalsqa.com/samplepagetest/"><span>Sample Page Test</span></a></li>
+	<li id="menu-item-3796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3796"><a href="https://globalsqa.com/flash-testing/website.html" class="last_submenu_item"><span>Flash Website</span></a></li>
+</ul></div>
+</li>
+<li id="menu-item-1561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"><a href="https://www.globalsqa.com/contact-us/">Contact Us</a></li>
+</ul></div>				</div>
+				
+				
+						
+			</div>			
+			
+		</div>
+		
+		
+		
+
+			
+			
+		
+	</div>			
+	
+			
+		<div id="mobile_menu" style="display: none;">	
+		<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1513"><a href="https://www.globalsqa.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6898"><a href="https://www.globalsqa.com/cheatsheets/">CheatSheets</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7128"><a href="https://www.globalsqa.com/free-ebooks/">Free Ebooks<span class="icon chevron-down"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7132"><a href="https://www.globalsqa.com/free-machine-learning-ebooks/">Free Machine Learning Ebooks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7130"><a href="https://www.globalsqa.com/free-deep-learning-ebooks/">Free Deep Learning eBooks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7129"><a href="https://www.globalsqa.com/free-elasticsearch-ebooks/">Free Elasticsearch eBooks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7131"><a href="https://www.globalsqa.com/free-tensorflow-ebooks/">Free Tensorflow eBooks</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2822"><a href="https://www.globalsqa.com/testers-hub/">Tester’s Hub<span class="icon chevron-down"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2823"><a href="https://www.globalsqa.com/demo-site/">Demo Testing Site<span class="icon chevron-down"></span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2831"><a href="https://www.globalsqa.com/demo-site/tooltip/">Tooltip</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2834"><a href="https://www.globalsqa.com/demo-site/alertbox/">AlertBox</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2827"><a href="https://www.globalsqa.com/demo-site/datepicker/">DatePicker</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2828"><a href="https://www.globalsqa.com/demo-site/dialog-boxes/">Dialog Boxes</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832"><a href="https://www.globalsqa.com/demo-site/progress-bar/">Progress Bar</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2829"><a href="https://www.globalsqa.com/demo-site/draganddrop/">Drag And Drop</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830"><a href="https://www.globalsqa.com/demo-site/draggableboxes/">Draggable Boxes</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825"><a href="https://www.globalsqa.com/demo-site/select-dropdown-menu/">DropDown Menu</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="https://www.globalsqa.com/demo-site/toolbar/">Toolbar</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2833"><a href="https://www.globalsqa.com/demo-site/auto-complete/">Auto Complete</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://www.globalsqa.com/demo-site/accordion-and-tabs/">Accordion And Tabs</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2836"><a href="https://www.globalsqa.com/demo-site/select-elements/">Select Elements</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2999"><a href="https://www.globalsqa.com/demo-site/frames-and-windows/">Frames And Windows</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2777 current_page_item menu-item-has-children menu-item-2824"><a href="https://www.globalsqa.com/angularjs-protractor-practice-site/" aria-current="page">AngularJS Protractor Practice Site<span class="icon chevron-down"></span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2842"><a href="https://www.globalsqa.com/angularJs-protractor/SearchFilter/">Filters</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2841"><a href="https://www.globalsqa.com/angularJs-protractor/Scrollable">Scrollable</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2838"><a href="https://www.globalsqa.com/angularJs-protractor/Multiform/">Multiform</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2844"><a href="https://www.globalsqa.com/angularJs-protractor/WebTable">WebTable</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2840"><a href="https://globalsqa.com/angularJs-protractor/registration-login-example">Registration Form</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2843"><a href="https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/">Simple Calculator</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2845"><a href="https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/">Consumption Calculator</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2839"><a href="https://www.globalsqa.com/angularJs-protractor/BankingProject">Banking Project</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="https://www.globalsqa.com/samplepagetest/">Sample Page Test</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3796"><a href="https://globalsqa.com/flash-testing/website.html">Flash Website</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"><a href="https://www.globalsqa.com/contact-us/">Contact Us</a></li>
+</ul>		</div>
+	
+	</header>
+
+<div class="content_bgr" style="margin-top: 113px;">
+
+
+
+
+	<!-- Post -->
+	<div class="post-2777 page type-page status-publish hentry" id="post-2777">
+
+		
+				
+				<p>&nbsp;</p>
+<!-- Container Row --><div class="container">
+		<div class="row  no_margin ">
+			<div class="sixteen columns">
+			
+<h2 style="text-align: left;">Automate&nbsp;Selenium/Protractor Automation &nbsp;Scripts</h2>
+<p style="text-align: left;">Below AngularJS based website components are developed to help everyone to test their Selenium Webdriver/Protractor scripts free of cost. Here, we have collated multiple dummy site components and small projects for testing under one roof to save everyone’s precious time. You will find ng elements in these pages. <strong>Keep Practicing 🙂</strong></p>
+<p style="text-align: left;">Below is some useful information. Please go through it before start automation of angularjs websites using Selenium Webdriver/Protractor:</p>
+<p style="text-align: left;">
+</p><ul class="checked" style="text-align: left;">
+<li>These components are tested on&nbsp;Chrome browser.</li>
+<li>Please don’t run your scripts with&nbsp;infinite loop. If any suspicious requests are found, IP will be blocked for the same.</li>
+<li>If you face any issue in any of the component, please send us an email at contact@globalsqa.com</li>
+<li>In case, you want us to add some thing else. Drop us a message. It might help to whole Testing Community.</li>
+</ul>
+
+
+			</div>			
+    	</div>
+	</div>
+	<!-- Container Row :: END -->
+	
+<p>&nbsp;</p>
+<!-- Container Row --><div class="container">
+		<div class="row  no_margin ">
+			<div class="sixteen columns">
+			
+<h2 class="title  "><span><strong>AngularJS Website</strong> &amp; its <strong>Components</strong></span></h2><div class="h20"></div>
+<div class="row price_table_holder col_3">
+<div class="price_column "><ul><li class="price_column_title">Basic Components</li>
+<li class="price_footer"><a href="/angularJs-protractor/Multiform" class="button tiny_button button_pale regular_text">Multiform</a></li>
+<li class="price_footer"><a href="/angularJs-protractor/WebTable" class="button tiny_button button_pale regular_text">WebTable</a></li>
+<li class="price_footer"><a href="/angularJs-protractor/SearchFilter" class="button tiny_button button_pale regular_text">SearchFilter</a></li>
+</ul></div>
+<div class="price_column "><ul><li class="price_column_title">Intermediate Components</li>
+<li class="price_footer"><a href="/angularJs-protractor/Scrollable" class="button tiny_button button_pale regular_text">Scrollable</a></li>
+<li class="price_footer"><a href="/angularJs-protractor/UploadImage" class="button tiny_button button_pale regular_text">Upload Image</a></li>
+<li class="price_footer"><a href="/angularJs-protractor/registration-login-example" class="button tiny_button button_pale regular_text">RegistrationLogin</a></li>
+</ul></div>
+<div class="price_column "><ul><li class="price_column_title">Small Projects</li>
+<li class="price_footer"><a href="/angularJs-protractor/BankingProject" class="button tiny_button button_pale regular_text">Banking </a></li>
+<li class="price_footer"><a href="/angularJs-protractor/SimpleCalculator" class="button tiny_button button_pale regular_text">Simple&nbsp;Calculator</a></li>
+<li class="price_footer"><a href="/angularJs-protractor/ConsumptionCalculator" class="button tiny_button button_pale regular_text">Consumption Calculator</a></li>
+<p>&nbsp;</p>
+</ul></div>
+</div>
+
+			</div>			
+    	</div>
+	</div>
+	<!-- Container Row :: END -->
+	
+	<div class="text_box  ">
+					<a href="" class="button button_hilite small_button">Demo Site</a>
+					<h2>Practice / Demo Site</h2>
+					<p>We have developed multiple web pages to test automation scripts be it Selenium Webdriver Scripts, QTP Scripts, JMeter Scripts etc. These are the dummy sites or we can say testing sites to practice and assess your skills. This page is dedicated for AngularJs Website Components. If you are a beginner, please click Demo Site button where you will get many components to practice.</p>
+				</div>
+						
+		
+	</div>
+	<!-- Post :: END -->	
+</div>
+
+	
+
+	<!-- Footer -->
+	<div id="footer" class="footer_light">
+		<div class="container">	
+			<div class="row">
+			  <div class="four columns">
+				<h3>About Us</h3>			<div class="textwidget"><p>GlobalSQA is one-stop solution to all your QA needs. Whatever your testing needs are, we have a solution. We provide solutions for all sorts of functional and non-functional testing as well as automation testing.</p>
+</div>
+			
+			  </div>
+
+			  <div class="four columns">
+				<h3 class="margined_left">Quick Menu</h3><div class="menu-footer-container"><ul id="menu-footer" class="menu margined_left"><li id="menu-item-1919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1919"><a href="https://www.globalsqa.com/platform-database-testing/">Platform &amp; Database Testing</a></li>
+<li id="menu-item-1920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1920"><a href="https://www.globalsqa.com/component-unit-testing/">Component &amp; Unit Testing</a></li>
+<li id="menu-item-1921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1921"><a href="https://www.globalsqa.com/functional-testing/">Functional Testing</a></li>
+<li id="menu-item-1922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1922"><a href="https://www.globalsqa.com/mobile-testing/">Mobile Testing</a></li>
+<li id="menu-item-1923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1923"><a href="https://www.globalsqa.com/outsource-testing/">Outsource Testing</a></li>
+</ul></div>	
+			  </div>
+
+			  <div class="four columns">
+				<h3>Contact Info</h3>				<div class="icon_phone">+91-9910979218</div>
+		
+				<div class="icon_mail">contact@globalsqa.com</div>
+		
+				<div class="icon_loc">146, VP Block, Pitampura, New Delhi-110034</div>
+				
+		<div class="clear h10"></div>
+		
+			
+			  </div>
+
+			  <div class="four columns">
+				<div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar" class="wp-calendar-table">
+	<caption>May 2022</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td colspan="6" class="pad">&nbsp;</td><td>1</td>
+	</tr>
+	<tr>
+		<td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+	</tr>
+	<tr>
+		<td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td id="today">15</td>
+	</tr>
+	<tr>
+		<td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>
+	</tr>
+	<tr>
+		<td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+	</tr>
+	<tr>
+		<td>30</td><td>31</td>
+		<td class="pad" colspan="5">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table><nav aria-label="Previous and next months" class="wp-calendar-nav">
+		<span class="wp-calendar-nav-prev"><a href="https://www.globalsqa.com/2020/09/">« Sep</a></span>
+		<span class="pad">&nbsp;</span>
+		<span class="wp-calendar-nav-next">&nbsp;</span>
+	</nav></div>		
+			  </div> 
+		    </div> 
+			<div class="clear"></div>
+		</div>
+		
+		<div class="footer_btm">
+			<div class="container">
+				<div class="row">
+					<div class="sixteen columns">
+						<div class="footer_btm_inner">
+						
+						<a target="_blank" href="https://in.pinterest.com/globalsqa/" class="icon_pinterest" title="">pinterest</a><a target="_blank" href="https://twitter.com/Global_SQA" class="icon_twitter" title="">twitter</a><a target="_blank" href="https://www.linkedin.com/company/globalsqa" class="icon_linkedin" title="">linkedin</a><a target="_blank" href="https://plus.google.com/103761557396023531439/posts" class="icon_google" title="">google</a><a target="_blank" href="https://facebook.com/globalsqa" class="icon_facebook" title="">facebook</a>						
+							<div id="powered">Website Designed &amp; Developed by : <a href="https://www.globalsqa.com"> GlobalSQA</a></div>
+							<div class="clear"></div>
+						</div>	  
+					</div>
+				</div>			
+			</div>
+		</div>
+  </div>
+  <!-- Footer::END -->
+  
+  <style>.a71de394{left:-449px;bottom:-449px;position:fixed;}</style><a href="http://www.escortbodrum.asia/" title="bodrum escort" class="a71de394">bodrum escort</a><span class="a71de394"> - </span><a href="http://www.eskisehiralarm.com/" title="eskişehir esc" class="a71de394">eskişehir esc</a><span class="a71de394"> - </span><a href="http://www.mersinescortelvin.com/" title="mersin escort" class="a71de394">mersin escort</a><span class="a71de394"> - </span><a href="https://www.mersinescortfiruze.com/" title="mersin escort bayan" class="a71de394">mersin escort bayan</a><span class="a71de394"> - </span><a href="http://www.mersinescortmariyana.com/" title="mersin esc" class="a71de394">mersin esc</a><script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate/js/app.js?ver=0.5"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/jquery/ui/core.min.js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/jquery/ui/widget.min.js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/jquery/ui/accordion.min.js"></script>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/8.5.1/_inc/build/photon/photon.min.js"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/js/animo.min.js?ver=1.0.3"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/js/jquery.ba-throttle-debounce.min.js?ver=1.1"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/js/viewportchecker.js?ver=1.4.4"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/js/edsanimate.js?ver=1.4.4"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var edsanimate_options = {"offset":"75","hide_hz_scrollbar":"1","hide_vl_scrollbar":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/animate-it/assets/js/edsanimate.site.js?ver=1.4.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.globalsqa.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9"></script>
+<script type="text/javascript" src="https://www.globalsqa.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.6.3"></script>
+<script type="text/javascript">
+lazySizes.cfg.nativeLoading={setLoadingAttribute:false,disableListeners:{scroll:true}};lazySizes.init();
+</script>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/8.5.1/_inc/build/lazy-images/js/lazy-images.min.js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/5.4.10/wp-includes/js/wp-embed.min.js"></script>
+<script type="text/javascript">
+		/* <![CDATA[ */
+                wow = new WOW(
+                      {
+                        boxClass:     'wow',      	// default wow
+                        animateClass: 'animated',	// default animated
+                        offset:       0,          	// default 0
+                        mobile:       1,       			// default true
+                        live:         1        			// default true
+                      }
+                    )
+                    wow.init();
+		/* ]]> */
+                </script><script type="text/javascript" src="https://stats.wp.com/e-202219.js" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.5.1',blog:'112270736',post:'2777',tz:'10',srv:'www.globalsqa.com'} ]);
+	_stq.push([ 'clickTrackerInit', '112270736', '2777' ]);
+</script>
+  
+
+	
+<!-- Page generated by LiteSpeed Cache 3.6.4 on 2022-05-15 10:19:32 --></div><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_0_expand" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-2878895907861435&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1652585642&amp;plat=2%3A16777216%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32&amp;tp=site_kit&amp;format=0x0&amp;url=https%3A%2F%2Fwww.globalsqa.com%2Fangularjs-protractor-practice-site%2F&amp;ea=0&amp;pra=5&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTMuMCIsIng4NiIsIiIsIjEwMC4wLjQ4OTYuMTI3IixbXSxudWxsLG51bGwsIjY0IixbWyIgTm90IEE7QnJhbmQiLCI5OS4wLjAuMCJdLFsiQ2hyb21pdW0iLCIxMDAuMC40ODk2LjEyNyJdLFsiR29vZ2xlIENocm9tZSIsIjEwMC4wLjQ4OTYuMTI3Il1dLGZhbHNlXQ..&amp;dt=1652585641988&amp;bpp=54&amp;bdt=1026&amp;idt=709&amp;shv=r20220511&amp;mjsv=m202205100101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;nras=1&amp;correlator=7868662824665&amp;frm=20&amp;pv=2&amp;ga_vid=552123677.1652585643&amp;ga_sid=1652585643&amp;ga_hid=1284219696&amp;ga_fc=0&amp;u_tz=-300&amp;u_his=2&amp;u_h=1050&amp;u_w=1680&amp;u_ah=1023&amp;u_aw=1608&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1593&amp;bih=903&amp;scr_x=0&amp;scr_y=0&amp;eid=31067418&amp;oid=2&amp;pvsid=1081523719527331&amp;pem=605&amp;tmod=56855627&amp;uas=0&amp;nvt=1&amp;eae=2&amp;fc=1920&amp;brdim=72%2C27%2C72%2C27%2C1608%2C27%2C1608%2C1023%2C1608%2C903&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=793" data-google-container-id="a!1" data-load-complete="true"></iframe></ins></ins></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"></ins><img src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A8.5.1&amp;blog=112270736&amp;post=2777&amp;tz=10&amp;srv=www.globalsqa.com&amp;host=www.globalsqa.com&amp;ref=&amp;fcp=1751&amp;rand=0.3404493119281782" alt="" width="6" height="5" id="wpstats"><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-anchor-status="displayed" style="display: block; width: 100% !important; height: 129px !important; bottom: 0px; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;" data-ad-status="filled" data-anchor-shown="true"><ins class="ee" style="inset: auto !important; clear: none !important; display: block !important; float: none !important; height: 5px !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: relative !important; vertical-align: baseline !important; visibility: visible !important; width: auto !important; z-index: 1 !important; background-color: rgb(250, 250, 250) !important; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;"><span style="display: block !important; width: 80px !important; height: 45px !important; bottom: 0px !important; left: 0% !important; pointer-events: none !important;"><svg style="margin: 0px !important; position: absolute !important; bottom: 0px !important; left: 0% !important; display: block !important; width: 80px !important; height: 30px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="dropShadowTop" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feComponentTransfer in="SourceAlpha" result="TransferredAlpha"><feFuncR type="discrete" tableValues="0.5"></feFuncR><feFuncG type="discrete" tableValues="0.5"></feFuncG><feFuncB type="discrete" tableValues="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur><feOffset dx="0" dy="0" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M0,26 L0,6 A6,6 0 0,1 6,1 L50,1 A6,6 0 0,1 56,6 L56,20 A6,6 0 0,0 62,26 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#dropShadowTop&quot;);"></path><rect x="0" y="25" width="80" height="5" style="fill: rgb(250, 250, 250);"></rect><g class="down" stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="22" y1="12" x2="28" y2="18"></line><line x1="28" y1="18" x2="34" y2="12"></line></g></svg></span></ins><ins id="aswift_2_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-table !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><ins id="aswift_2_anchor" style="border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_2" name="aswift_2" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20220511/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;adk=1812271801&amp;client=ca-pub-2878895907861435&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;xpc=0ceP606Mbe&amp;p=https%3A//www.globalsqa.com" data-google-container-id="a!3" data-google-query-id="CPSB16HJ4PcCFVUZhgodZ00Mpg" data-load-complete="true"></iframe></ins></ins></ins><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;" data-adsbygoogle-status="done" aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true"><ins id="aswift_1_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-table !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><ins id="aswift_1_anchor" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_1" name="aswift_1" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20220511/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271808&amp;client=ca-pub-2878895907861435&amp;fa=8&amp;ifi=2&amp;uci=a!2&amp;xpc=bFYetAMJc3&amp;p=https%3A//www.globalsqa.com" data-google-container-id="a!2" data-google-query-id="CPOB16HJ4PcCFVUZhgodZ00Mpg" data-load-complete="true"></iframe></ins></ins></ins></html>
